@@ -1,0 +1,1 @@
+invalid_area = calculate_rectangle_area(-1, 4)

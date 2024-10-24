@@ -1,6 +1,10 @@
+from functools import wraps
+
+
 def log_execution_time(func):
     from time import time
 
+    @wraps(func)
     def wrapper(*args, **kwargs):
         start_time = time()
         result = func(*args, **kwargs)
