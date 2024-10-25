@@ -13,8 +13,8 @@ def calculate_rectangle_area(length, width):
 
 
 # Usage
-area = calculate_rectangle_area(5, 4)  # Valid input
-print(f"Rectangle area: {area}")
+# area = calculate_rectangle_area(5, 4)  # Valid input
+# print(f"Rectangle area: {area}")
 
 try:
     invalid_area = calculate_rectangle_area(-1, 4)  # Invalid input
