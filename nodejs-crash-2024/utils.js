@@ -2,4 +2,11 @@ function randomNumberGenerator() {
   return Math.floor(Math.random() * 100) + 1;
 }
 
-module.exports = randomNumberGenerator;
+function celciusToFahrenheit(celcius) {
+  return (celcius * 9) / 5 + 32;
+}
+
+module.exports = {
+  randomNumberGenerator,
+  celciusToFahrenheit,
+};
